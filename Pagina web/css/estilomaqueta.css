@@ -1,0 +1,92 @@
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+body {
+    background-color: #E0FFFF;
+    color: black;
+}
+header {
+    background: linear-gradient(90deg, #00AEEF, #EC008C);
+    color: white;
+    padding: 2rem;
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    position: relative;
+}
+nav {
+    background-color: #00AEEF;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 15px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.btn-group {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    display: flex;
+    gap: 5px;
+}
+.btn-nav {
+    padding: 0.3rem 0.6rem;
+    background-color: #00AEEF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.8rem;
+    transition: background-color 0.3s;
+}
+.btn-nav:hover {
+    background-color: #EC008C;
+}
+.seccion {
+    padding: 3rem;
+    margin: 2rem auto;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    max-width: 900px;
+    position: relative;
+}
+.productos {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.producto {
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    text-align: center;
+    border: 3px solid #EC008C;
+}
+.producto img {
+    width: 100%;
+    border-radius: 10px;
+}
+footer {
+    background: #00AEEF;
+    color: white;
+    text-align: center;
+    padding: 1.5rem;
+    font-size: 1rem;
+    margin-top: 2rem;
+}
